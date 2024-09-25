@@ -1,0 +1,171 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Orbitron, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+.all-pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 736px;
+    background-color: #f0f0f0; 
+}
+
+
+.container {
+    width: 400px;
+    height: auto;
+    background-color: white; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    position: relative;
+}
+
+.calculator-part {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.calc-input {
+	outline: none;
+	background: #FFFFFF;
+	color: #000000;
+	border-radius: 17px;
+	box-shadow: 0px 3px 20px 7px #E2E2E2;
+	transition: .3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding: 30px 0px 30px 7px;
+    margin: 45px 0px 30px 0px;
+    font-size: 36px;
+    font-family: 'Digital Numbers', sans-serif;
+
+}
+.calc-input:focus {
+	background: #F2F2F2;
+	border: 0px solid rgba(21, 101, 192, 1);
+	border-radius: 10px;
+    
+}
+
+.calc-input::placeholder {
+	color: #DDDDDD;
+    border: 2px solid blue;
+    border-radius: 17px;
+    padding: 22px 0px;
+    width: 96%;
+    margin-left: 20px;
+    font-family: 'Digital Numbers', sans-serif; 
+      font-size: 36px;
+    font-weight: 400;
+    line-height: 46.48px;
+    text-align: center;
+
+
+
+}
+.calc-button {
+    position: absolute;
+    background: #FFFFFF;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    right: 4%;
+    top: 2%;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+
+.tg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tg-main{
+    border: 2px solid rgba(21, 101, 192, 1);
+    color: rgba(21, 101, 192, 1);
+    border-radius: 17px;
+}
+
+
+
+
+.tables{
+    margin-bottom: 10px;
+}
+.all-tables {
+    box-shadow: -1px -3px 5px 5px rgba(0, 0, 0, 0.09);
+    width: 72px; 
+    height: 66px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 5px 10px; 
+}
+
+.btn {
+    cursor: pointer;
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tg-main{
+    border: 2px solid rgba(21, 101, 192, 1);
+}
+.btn-main{
+    color: rgba(21, 101, 192, 1);
+}
+.btn.active {
+    background-color: rgba(21, 101, 192, 1); 
+    color: white; 
+    transition: background-color 0.3s ease;
+}
+.tg-b{
+    background-color: rgba(21, 101, 192, 1);
+    box-shadow: -1px -3px 5px 5px rgba(0, 0, 0, 0.09);
+
+    border-radius: 10px;
+    border: 3px solid white;
+    cursor: pointer;
+    margin: 5px 10px;
+}
+
+.btn-b{
+    color: #FFFFFF;
+
+}
+
+.table-row {
+    display: flex;
+    justify-content: center;
+}
+.callSpan2{
+    width: 163px;
+}
